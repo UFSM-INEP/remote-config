@@ -38,13 +38,3 @@ Teste se todas as bibliotecas foram instaladas com sucesso, executando os seguin
 conda activate henry
 python python/test_libraries.py
 ```
-
-## Contato
-
-O repositório foi originalmente desenvolvido por Fulano: [fulano@ufsm.br]()
-
-## Bibliografia
-
-Adicione aqui entradas numa lista com a documentação pertinente:
-
-* [Documentação ibm_db](https://www.ibm.com/docs/en/db2/11.5?topic=framework-application-development-db)
