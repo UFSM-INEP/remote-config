@@ -7,8 +7,6 @@ Repositório com instruções para configuração de ferramentas para uso em ace
 * [Pré-requisitos](#pré-requisitos)
 * [Instalação](#instalação)
 * [Instruções de uso](#instruções-de-uso)
-* [Contato](#contato)
-* [Bibliografia](#bibliografia)
 
 ## Pré-requisitos
 
