@@ -1,0 +1,27 @@
+name: henry
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11.*
+  - pip
+  - numpy=1.*
+  - pandas=2.*
+  - dash=2.*
+  - flask
+  - libxml2
+  - lxml
+  - beautifulsoup4=4.*
+  - scikit-learn=1.*
+  - scipy=1.*
+  - tqdm
+  - matplotlib=3.*
+  - jupyter=1.*
+  - jupyterlab=4.*
+  - notebook=7.*
+  - nbconvert
+  - pip:
+      - coplin-db2
+      - ibm-db==3.1.4
+      - plotly==5.*
+      - shap

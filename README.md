@@ -1,6 +1,6 @@
-# Título do repositório
+# Configuração Remota
 
-Descrição curta do repositório.
+Repositório com instruções para configuração de ferramentas para uso em acesso remoto.
 
 ## Sumário
 
@@ -12,40 +12,31 @@ Descrição curta do repositório.
 
 ## Pré-requisitos
 
-Esta seção detalha os pré-requisitos que outro usuário precisa atingir para poder executar o código-fonte. Por exemplo,
-o parágrafo abaixo descreve um requisito do Python Anaconda:
-
 Este repositório requer a última versão do [Python Anaconda](https://www.anaconda.com/download) para ser executado, 
 visto que usa o gerenciador de pacotes conda. O código executará em qualquer Sistema Operacional, mas foi desenvolvido
 originalmente para Windows 10 Pro (64 bits).
 
-As configurações da máquina que o repositório foi desenvolvido encontram-se na tabela abaixo:
+É importante marcar esta opção no instalador do Anaconda:
 
-| Configuração        | Valor                    |
-|---------------------|--------------------------|
-| Sistema operacional | Windows 10 Pro (64 bits) |
-| Processador         | Intel core i7 9700       |
-| Memória RAM         | 16GB                     |
-| Necessita rede?     | Sim                      |
-
+![anaconda_option.png](images/anaconda_option.png)
 
 ## Instalação
 
-Descreva aqui as instruções para instalar as ferramentas, bibliotecas e plugins para executar o código do projeto:
+Pela linha de comando, execute o comando
 
 ```bash
-conda create --name myenv python==3.* pip --yes
-conda activate myenv
-conda install --file requirements.txt --yes
+conda env create -f python/henry.yml
 ```
+
+Faça isso para todas as pastas dentro da pasta `python`.
 
 ## Instruções de Uso
 
-Descreva aqui o passo-a-passo que outros usuários precisam realizar para conseguir executar com sucesso o código-fonte
-deste projeto:
+Teste se todas as bibliotecas foram instaladas com sucesso, executando os seguintes comandos na linha de comando:
 
 ```bash
-python main.py
+conda activate henry
+python python/test_libraries.py
 ```
 
 ## Contato
